@@ -1,0 +1,43 @@
+.overlay{
+    background-color: #333;
+    height: 70vh;
+}
+.h1{
+    color: #fff !important;
+}
+.input{
+    font-size:22px;
+    padding:5px 10px;
+    background:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    background-image:none;
+    border:1px solid grey;
+    color:white;
+    border-radius:0%;
+    transition:border-color .25s ease, box-shadow .25s ease;
+}
+.input:focus{
+		outline:0%;
+		border-color: #333;
+}
+
+.button-1 {
+    border: 1px solid #0d6efd;
+    outline:none;
+    border-radius:0;
+    padding: 7px 10;
+    font-size:1.6rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    transition:all .5s ease;
+    -webkit-appearance: none;
+    
+  }
+  .button-1:hover{
+    transition: all 0.5s ease-in-out;
+    background: #333;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
